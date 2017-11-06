@@ -10,9 +10,10 @@ public class jenkinsCode
 {
 	public static void main(String args[]) throws IOException
 	{
-		System.out.println("Log writer executed!");
+		System.out.println("Log writer executed successfully!");
 		PrintWriter writer = new PrintWriter("logfile.txt", "UTF-8");	
 		writer.println("Log entry from Log writer!");
 		writer.close();
 	}
 }
+
